@@ -4,11 +4,12 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>    
+    <authors>Ryan Herbert</authors>
+    <owners>Ryan Herbert</owners>    
     <description>ActionFilter for validating recaptcha and HtmlHelper for generating form field</description>
     <releaseNotes>Initial Release.</releaseNotes>
     <copyright>Copyright 2012</copyright>
+	<projectUrl>https://github.com/RyanHerbert/Recaptcha.Mvc</projectUrl>
     <tags></tags>
   </metadata>
   <files>
