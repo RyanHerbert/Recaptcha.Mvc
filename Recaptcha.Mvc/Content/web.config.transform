@@ -1,0 +1,6 @@
+﻿<configuration>
+  <appSettings>
+    <add key="recaptcha.privateKey" value="" />
+    <add key="recaptcha.publicKey" value="" />
+  </appSettings>
+</configuration>

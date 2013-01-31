@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>    
+    <description>ActionFilter for validating recaptcha and HtmlHelper for generating form field</description>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="Content\**" target="content" />
+    <file src="**" target="src" exclude="obj\**;bin\**" />
+  </files>
+</package>
