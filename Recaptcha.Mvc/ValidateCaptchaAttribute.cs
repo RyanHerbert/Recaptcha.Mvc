@@ -7,7 +7,7 @@ using System.Configuration;
 
 namespace Recaptcha.Mvc
 {
-    public class ValidateCaptchaActionFilterAttribute : ActionFilterAttribute
+    public class ValidateCaptchaAttribute : ActionFilterAttribute
     {
         private const string ChallengeFieldKey = "recaptcha_challenge_field";
         private const string ResponseFieldKey = "recaptcha_response_field";
@@ -22,7 +22,7 @@ namespace Recaptcha.Mvc
         /// <param name="resultKey">The name of the ActionParameter and ModelState key to set</param>
         /// <param name="setModelStateError">Set to false to disable setting a modelstate error</param>
         /// <param name="errorMessage">The error message to set in the model state if setModelStateError is true</param>
-        public ValidateCaptchaActionFilterAttribute(string resultKey = "captchaIsValid", bool setModelStateError = true, string errorMessage = "Your response did not match the captcha.")
+        public ValidateCaptchaAttribute(string resultKey = "captchaIsValid", bool setModelStateError = true, string errorMessage = "Your response did not match the captcha.")
         {
             _resultKey = resultKey;
             _setModelStateError = setModelStateError;
